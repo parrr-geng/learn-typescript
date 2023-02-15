@@ -16,7 +16,7 @@ let numbersMulti = [[[1], [2, 3]], [[7], bestNumbers]];
 //The whole point of tuples is that they have fixed lengths, we wouldn't be able to add new elements to a tuple.
 let favoriteCoordinates = [40, 43.2, 'N', 73, 59.8, 'W'];
 //Rest parameters
-//THe rest parameter lets the function work with any number of parameters greater than 0.
+//The rest parameter lets the function work with any number of parameters greater than 0.
 //There is type annotation for rest parameter too.
 function addPower(p, ...numsToAdd) {
     let answer = 0;

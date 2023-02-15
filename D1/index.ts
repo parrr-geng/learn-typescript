@@ -73,7 +73,7 @@ if (foundProduct.length){
 }
 
 // FUNCTIONS
-//question mark means this paramter is opetional, and type annotation defined afterwards too.
+//question mark means this paramter is optional, and type annotation defined afterwards too.
 function greet1(name?: string){
     console.log(`Hello, ${name || 'Anonymous'}!`);
 };

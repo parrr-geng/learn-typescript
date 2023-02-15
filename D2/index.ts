@@ -19,7 +19,7 @@ let numbersMulti: number[][][] = [ [[1],[2,3]], [[7],bestNumbers] ];
 let favoriteCoordinates: [number, number, string, number, number, string] = [40, 43.2, 'N', 73, 59.8, 'W'];
 
 //Rest parameters
-//THe rest parameter lets the function work with any number of parameters greater than 0.
+//The rest parameter lets the function work with any number of parameters greater than 0.
 //There is type annotation for rest parameter too.
 function addPower(p: number, ...numsToAdd: number[]): number {
     let answer = 0;

@@ -74,7 +74,7 @@ if (foundProduct.length) {
     console.log(`${product.name} would be shipped to ${shippingAddress}. The price of it is $${product.price}, and the total Tax is $${taxTotal}, your shipping fee is $${shipping}, and the total amount to be paid is $${total}.`);
 }
 // FUNCTIONS
-//question mark means this paramter is opetional, and type annotation defined afterwards too.
+//question mark means this paramter is optional, and type annotation defined afterwards too.
 function greet1(name) {
     console.log(`Hello, ${name || 'Anonymous'}!`);
 }
